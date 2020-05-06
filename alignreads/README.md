@@ -12,4 +12,23 @@ Line1 = Sample ID
 Line2 = RNA-seq data files (fastq)
 Line3 = Path to save output files
 
-## Regenerate 
+The final output is combining all SJ files for the next step
+
+## Regenerate the genome index
+Use the combined SJ files from previous step to regenrate the genome index
+
+## Second pass of the reads 
+Rerun the reads using the second genome indexing. 
+
+## Assigning read group information 
+Adding read group information to the aligned data 
+
+## MarkDuplicates
+Identifies duplicate reads 
+
+## Split GATK
+Splits reads into exon segments and hard-clip any sequences overhanging into the intronic regions
+
+## Base recalibration 
+Allows us to determine the quality of the sequencing data. It adjusts base quality scores based on a machine learning algorithm. Will improve the accuracy of our variant calls. 
+
