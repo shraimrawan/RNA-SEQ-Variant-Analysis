@@ -6,4 +6,4 @@ https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7604/samples/?s_page=1&s_p
 # Running the code
 First we will need to align the RNA-seq data to reference genome. Refer to code found in alignreads folder in this repo 
 
-Second will will call genomic variants from the RNA-seq data. Refer to code found in variantcall folder in this repo
+Second we will call genomic variants from the RNA-seq data. Refer to code found in variantcall folder in this repo
