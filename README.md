@@ -8,5 +8,5 @@ First we will need to align the RNA-seq data to reference genome. Refer to code 
 
 Second we will call genomic variants from the RNA-seq data. Refer to code found in variantcall folder in this repo
 
-# Run Burden Test and Variant Calling using SNPEff in the Burden Test Repo
+## Run Burden Test and Variant Calling using SNPEff in the Burden Test Repo
 Use the final filter vcf produced by the final step in the variantcall folder and use that fo the Burden test steps
